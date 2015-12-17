@@ -36,6 +36,8 @@ public class ArrayProve {
         
         System.arraycopy(s1, 1, s2, 0, 2);
         
+        Object obj[] = {new Object[1]};
+        
         Arrays.asList(s2).stream().forEach(v -> System.out.println(v));
         
         
